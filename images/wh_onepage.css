@@ -193,3 +193,46 @@ footer {
     font-size: 20px;
     margin-top: 5px;
 }  
+
+
+@media screen and (max-width: 998px){
+
+}
+
+
+@media screen and (max-width: 768px){
+    
+}
+
+
+@media screen and (max-width: 576px){
+    body{
+        background-image: none;
+        background-color: #DCF3F6;
+        background-attachment: fixed;
+    }
+
+    #first{
+        font-size: 25px;
+    }
+
+    .elements {
+        
+        margin-left: 5px; /* Remove left margin on smaller screens */
+    }
+
+
+    #im{
+        width: 150px;
+    }
+
+
+    .bttn{
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 998px){
+    
+} 
