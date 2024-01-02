@@ -180,7 +180,6 @@ footer {
 #text_info{
     margin-left: 20px;
     max-width: 600px;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto Slab', serif;
     
 
@@ -193,6 +192,7 @@ footer {
     font-size: 20px;
     margin-top: 5px;
 }  
+
 
 
 @media screen and (max-width: 998px){
@@ -236,3 +236,6 @@ footer {
 @media screen and (max-width: 998px){
     
 } 
+
+
+
