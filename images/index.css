@@ -167,6 +167,8 @@ footer {
 #dh{
     border-radius: 8px;
     width: 400px;
+    max-width: 100%;
+    height: auto;
     
     
 }
@@ -196,12 +198,28 @@ footer {
 
 
 @media screen and (max-width: 998px){
+    #dh{
+        width: 100%;
+        height: auto;
+        
 
+    }
 }
 
 
-@media screen and (max-width: 768px){
-    
+@media screen and (max-width: 780px){
+    #info{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+    #dh{
+        padding-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
 }
 
 
@@ -215,6 +233,8 @@ footer {
     #first{
         font-size: 25px;
     }
+
+
 
     .elements {
         
@@ -230,7 +250,75 @@ footer {
     .bttn{
         margin-top: 20px;
     }
+
+
+    #scrollBtn{
+        pointer-events: none;
+        opacity: 0;
+    }
+
+
+    #divv{
+        margin-top: 50px;
+    }
+
+
+    #image{
+        width: 100px;
+        right: 0;
+    }
+
+
+    #dh{
+        width: 100%;
+        height: auto;
+        margin: 5px 0 5px 0;
+
+    }
+
+
+    #info{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+ 
+
+
 }
+
+
+
+@media screen and (max-width: 391px){   /* small phones */
+    #texxt{
+        font-size: 18px;
+    }
+
+    #dh{
+        width: 100%;
+        height: auto;
+        margin: 5px 0 5px 0;
+
+    }
+}       
+
+
+@media screen and (max-width: 373px){
+    #first{
+        font-size: 24px;
+    }
+
+
+    #title{
+        font-size: 24px;
+    }
+
+    #fl{
+        font-size: 23px;
+    }
+}
+
 
 
 @media screen and (max-width: 998px){
