@@ -8,7 +8,6 @@ body {
     font-family: 'Nanum Myeongjo', serif;
     background: url(fon.jpg) no-repeat center right fixed;
     background-size: cover;
-    background-attachment: fixed;
     margin: 0;
 }
 
