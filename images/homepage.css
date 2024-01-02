@@ -133,3 +133,55 @@ form input:hover{
     background-color: #77777713;
     color: black;
 }
+
+
+@media screen and (max-width: 998px){
+
+}
+
+
+@media screen and (max-width: 768px){
+    
+}
+
+
+@media screen and (max-width: 576px){      /*iphone 12, 13, 14 pro max */
+    
+    body{
+        background-attachment: fixed;
+    }
+
+
+    #first{
+        font-size: 25px;
+    }
+
+
+    .footer{
+        font-size: 13px;
+        margin: 0 10% 0 10%;
+       
+    }
+}
+
+
+@media screen and (max-width: 371px){          /* small phones */
+    #first{
+        font-size: 20px;
+    }
+
+
+    body{
+        background: url(fon.jpg) no-repeat center right fixed;
+    }
+
+
+    #fltr{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 998px){
+    
+}
